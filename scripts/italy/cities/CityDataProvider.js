@@ -6,7 +6,7 @@ const Cities = [
     {
         name: "Rome",
         population: "4.2 million",
-        description: "Rome (Italian and Latin: Roma [ˈroːma]) is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region and has been a major human settlement for almost three millennia.",
+        description: "Rome is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region and has been a major human settlement for almost three millennia.",
         website: "https://en.wikipedia.org/wiki/Rome"
     },
     {
