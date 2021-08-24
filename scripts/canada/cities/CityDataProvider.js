@@ -2,7 +2,7 @@ export const getCities = () => {
     return Cities;
 }     
      
-     const Cities [
+     const Cities = [
          "Vancouver",
          "Toronto",
          "Montreal",

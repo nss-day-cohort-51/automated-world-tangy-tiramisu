@@ -2,7 +2,7 @@ export const getLandmarks = () => {
     return Landmarks;
 }     
      
-     const Landmarks [
+     const Landmarks = [
          "Niagara Falls",
          "Parliament",
          "CN Tower",

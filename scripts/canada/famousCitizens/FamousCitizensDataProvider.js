@@ -2,7 +2,7 @@ export const getFamousCitizens = () => {
     return famousCitizens;
 }     
      
-     const famousCitizens [
+     const famousCitizens = [
          "Ryan Reynolds",
          "Alanis Morissette",
          "Jim Carrey",
