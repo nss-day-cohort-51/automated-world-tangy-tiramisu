@@ -7,7 +7,7 @@ export const getCities = () => {
             image: "vancouver.png",
             name: "Vancouver",
             population: "2.6M",
-            description: "Vancouver is consistently named as one of the top five worldwide cities for livability and quality of life, and acknowledged as the first city ranked among the top ten of the world's most well-living cities[13] for ten consecutive years. However, Vancouver also ranks as the most expensive city to live in Canada and as the fourth-most expensive housing market globally. In 2011, the city planned to become the greenest city in the world by 2020. Vancouverism is the city's urban planning design philosophy.",
+            description: "Vancouver is consistently named as one of the top 5 worldwide cities for livability & quality of life & acknowledged as the 1st city ranked among the top 10 of the world's most well-living cities for 10 consecutive years. It also ranks as the most expensive city to live in Canada & as the 4th-most expensive housing market globally. In 2011, the city planned to become the greenest city in the world by 2020.",
             website: "https://vancouver.ca/"
         },
         {
