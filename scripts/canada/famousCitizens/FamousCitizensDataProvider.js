@@ -14,7 +14,7 @@ export const getFamousCitizens = () => {
             image: "alanis.png",
             name: "Alanis Morissette",
             occupation: "Singer",
-            description: "Alanis Morissette was born in Ottawa, Canada. Her Greek first name is a feminine version of her father's name. She is a Canadian singer, songwriter, musician, and actress. Known for her emotive mezzo-soprano voice, Morissette began her career in Canada in the early 90s",
+            description: "Alanis Morissette was born in Ottawa, Canada. She is a Canadian singer, songwriter, musician, and actress. Known for her emotive mezzo-soprano voice, Morissette began her career in Canada in the early 90s",
             website: "https://alanis.com/"
         },
         {
@@ -42,7 +42,7 @@ export const getFamousCitizens = () => {
             image: "celine.png",
             name: "Celine Dion",
             occupation: "Singer",
-            description: "Céline is a Canadian singer. She is noted for her powerful and technically skilled vocals. Dion is the best-selling Canadian recording artist in history. Born into a large family from Quebec, she emerged as a teen star in her home country with a series of French-language albums during the 80s",
+            description: "Céline is noted for her powerful and technically skilled vocals. Dion is the best-selling Canadian recording artist in history. She emerged as a teen star in her home country with a series of French-language albums during the 80s",
             website: "https://www.celinedion.com/"
         }
     ]   
