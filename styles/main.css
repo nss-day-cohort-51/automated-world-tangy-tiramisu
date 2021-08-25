@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Open Sans",sans-serif;
     font-size: 24pt;
     background-color: #C9D6DF;
@@ -7,11 +7,11 @@ body{
     padding: 0px;
 }
 
-h1{
+h1 {
     font-size: 40pt;
 }
 
-h2{
+h2 {
     font-size: 30pt;
 }
 
@@ -19,7 +19,7 @@ h2{
     font-size: 54pt;
 } */
 
-h4{
+h4 {
     font-size: 36pt;
 }
 
@@ -27,33 +27,33 @@ h4{
     font-size: 24pt;
 } */
 
-p{
+p {
     font-size: 16pt;
     font-family: "Raleway",serif;
     
 }
 
-.header{
+.header {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
     width: 100%;
 } 
 
-.logo{
+.logo {
     margin: 0px;
     padding: 0px;
     width: 100%;
     text-align: center;
 }
 
-.logo img{
+.logo img {
     width: 250px;
     padding: 0px;
-    margin: 0px;
+    margin: 25px 0px 20px 0px;
 }
 
-.navbar{
+.navbar {
     list-style-type: none;
     text-align: center;
     margin: 0px;
@@ -61,18 +61,18 @@ p{
     background-color: #52616B;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     margin: 0px 20px 5px 20px;
 } 
 
-.navbar a{
+.navbar a {
     display: inline-block;
     text-decoration: none;
     font-size: 20pt;
@@ -80,7 +80,7 @@ ul{
     color: white;
 }
 
-.active{
+.active {
     display: inline-block;
     font-size: 20pt;
     font-weight: 600;
@@ -88,11 +88,11 @@ ul{
     color: #58C2F1;
 }
 
-li a:hover{
+li a:hover {
     color: #58C2F1;
 }
 
-.header span{
+.header span {
     width: 100%;
     height: 4px;
     background-color: #58C2F1;
@@ -100,7 +100,7 @@ li a:hover{
     display: inline-block;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -162,7 +162,7 @@ main{
     border-top: 4px solid #58C2F1;
 }
 
-.about{
+.about {
     background-color: #C9D6DF;
 }
 
@@ -187,7 +187,7 @@ main{
     /* border: 3px dotted black; */
 }
 
-.city-card{
+.city-card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -198,6 +198,33 @@ main{
     padding: 10px;
     border-radius: 15px;
     border: 3px solid #52616B;
+}
+
+.city-card img {
+    /* width: 100%; */
+    /* text-align: center; */
+    margin: 0px auto;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.landmark-card img {
+    /* width: 100%; */
+    /* text-align: center; */
+    margin: 0px auto;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.citizen-card img {
+    /* width: 100%; */
+    /* text-align: center; */
+    margin: 0px auto;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 .city-card h3 {
@@ -320,14 +347,7 @@ main{
 }
 
 
-.city-card img{
-    /* width: 100%; */
-    /* text-align: center; */
-    margin: 0px auto;
-    padding: 0px;
-    border: 2px solid white;
-    border-radius: 15px;
-}
+
 
 .landmark-card img{
     text-align: center;

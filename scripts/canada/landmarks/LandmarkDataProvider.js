@@ -21,8 +21,8 @@ export const getLandmarks = () => {
             image: "parliament.png",
             name: "Parliament",
             year: "1866",
-            description: "",
-            website: "As the seat of Canada's federal government, the Parliament Buildings in Ottawa are a remarkable and visually striking complex of buildings located on a promontory overlooking the Ottawa River"
+            description: "As the seat of Canada's federal government, the Parliament Buildings in Ottawa are a remarkable and visually striking complex of buildings located on a promontory overlooking the Ottawa River",
+            website: "https://www.parl.ca/"
         },
         {
             image: "oldmontreal.png",
