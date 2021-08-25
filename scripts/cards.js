@@ -30,7 +30,7 @@ export const landmarkCard = (landmarkObj, country) => {
 }
 export const countryCard = (countryObj, country) => {
     return `
-        <article class="landmark-card">
+        <article class="country-card">
             <img src="../images/${country}/${countryObj.image}" alt="Country Image" />
             <h3>${countryObj.name}</h3>
             <p>${countryObj.description}</p>
