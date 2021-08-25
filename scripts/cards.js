@@ -28,3 +28,11 @@ export const landmarkCard = (landmarkObj, country) => {
             <a href="${landmarkObj.website}">More Info</a>
         </article>`
 }
+export const countryCard = (countryObj, country) => {
+    return `
+        <article class="landmark-card">
+            <img src="../images/${country}/${countryObj.image}" alt="Country Image" />
+            <h3>${countryObj.name}</h3>
+            <p>${countryObj.description}</p>
+        </article>`
+}
