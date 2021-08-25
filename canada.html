@@ -10,37 +10,30 @@
     <script type="module" src="scripts/canada/canada.js"></script>
 </head>
 <body>
-	<div class="header">
-		<header>
-			<section class="Logo">
+	<header>
+		<div class="header">
+			<section class="logo">
 				<img src="images/stellarlogo.png" alt="stellar logo" />
 			</section>
-			<section class="Navbar">
-				<!-- Navbar -->
+			<section class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="italy.html">Italy</a></li>
+					<li><a href="france.html">France</a></li>
+					<li class="active">Canada</li>
+				</ul>
 			</section>
-		</header>
-	</div>
+		</div>
+		<span></span>
+	</header>
+
 	<main>
 
-		<div id="italy" class="card">
-
-		</div>
-		<div id="france" class="card">
-
-		</div>
-		<div id="canada" class="card">
-
-		</div>
-
-
-
-
-
 		<section class="countryImage">
-			<!-- Country image -->
+			<img src="images/canada/canada.png" />
 		</section>
 		<section class="countryName">
-			<!-- Country name -->
+			<h2>Canada</h2>
 		</section>
 		<section class="countryContent">
 			<div id="cities" class="card">
@@ -53,9 +46,13 @@
 
 			</div>
 		</section>
+
 	</main>
 	<footer>
-		<p>Copyright &copy; 2021 Stellar Travel</p>
+		<div class="footer">
+			<div class="column1"><img src="images/stellarlogo.png" alt="stellar logo"> </div>	
+			<div class="column2"> <p>Copyright &copy; 2021 Stellar Travel</p></div>
+		</div>	
 	</footer>
 </body>
 </html>
