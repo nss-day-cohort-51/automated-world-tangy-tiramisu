@@ -39,7 +39,7 @@ const famousCitizens = [
         website: "https://en.wikipedia.org/wiki/Diane_Kruger"
     },
     {
-        image: "MicahelVartan.jpg",
+        image: "MichaelVartan.jpg",
         name: "Michael Vartan",
         occupation: "Actor",
         description: "Drama actor Michael Vartan began his career starring in European films before moving over to America. A small and large screen star.",
