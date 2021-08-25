@@ -1,1 +1,197 @@
-                       
+body{
+    font-family: "Open Sans",sans-serif;
+    font-size: 24pt;
+    background-color: #C9D6DF;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 40pt;
+}
+
+h2{
+    font-size: 30pt;
+}
+
+h3{
+    font-size: 54pt;
+}
+
+h4{
+    font-size: 36pt;
+}
+
+h5{
+    font-size: 24pt;
+}
+
+p{
+    font-size: 16pt;
+    font-family: "Raleway",serif;
+    
+}
+
+.header{
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+} 
+
+.logo{
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img{
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #52616B;
+    border: 1px solid crimson;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0px 20px 5px 20px;
+} 
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: 600;
+    color: white;
+}
+
+.active{
+    display: inline-block;
+    font-size: 20pt;
+    font-weight: 600;
+    text-decoration: none;
+    color: #58C2F1;
+}
+
+li a:hover{
+    color: #58C2F1;
+}
+
+.header span{
+    width: 100%;
+    height: 4px;
+    background-color: #58C2F1;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about{
+    background-color: #C9D6DF;
+}
+
+.country-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/* if changing, also change country cards below to match */
+.card{
+    width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+}
+
+#italy{
+
+}
+
+#france{
+
+}
+
+#canada{
+
+}
+
+.footer{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #52616B;
+    padding: 30px;
+}
+
+.column1{
+    align-self: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.column1 img{
+    width: 175px;
+
+}
+
+.column2{
+    align-self: center;
+    margin: 0px;
+    padding-right: 20px;
+}
+/* styling below is for country pages */
+.city-card{
+    width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+}
+.citizen-card{
+    width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+}
+.landmark-card{
+    width: 500px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+}
