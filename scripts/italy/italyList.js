@@ -8,12 +8,12 @@ export const ListCountryData = () => {
     const citizenElement = document.querySelector("#famous")
     const landmarkElement = document.querySelector("#landmarks")
     for (const city of getCities()) {
-        cityElement.innerHTML += cityCard(city)
+        cityElement.innerHTML += cityCard(city, "italy")
     }
     for (const citizen of getFamousCitizens()) {
-        citizenElement.innerHTML += citizenCard(citizen)
+        citizenElement.innerHTML += citizenCard(citizen, "italy")
     }
     for (const landmark of getLandmarks()) {
-        landmarkElement.innerHTML += landmarkCard(landmark)
+        landmarkElement.innerHTML += landmarkCard(landmark, "italy")
     }
 }
