@@ -42,7 +42,7 @@ export const getFamousCitizens = () => {
             image: "celine.png",
             name: "Celine Dion",
             occupation: "Singer",
-            description: "Céline is a Canadian singer. She is noted for her powerful and technically skilled vocals. Dion is the best-selling Canadian recording artist in history. Born into a large family from Quebec, she emerged as a teen star in her home country with a series of French-language albums during the 80s",
+            description: "Céline is noted for her powerful and technically skilled vocals. Dion is the best-selling Canadian recording artist in history. She emerged as a teen star in her home country with a series of French-language albums during the 80s",
             website: "https://www.celinedion.com/"
         }
     ]   
