@@ -21,7 +21,7 @@ const Cities = [
         name: "Milan",
         image: "milan.png",
         population: "1.3 million",
-        description: "https://www.britannica.com/place/Milan-Italy",
+        description: "Milan, Italian Milano, city, capital of Milano province (provincia) and of the region (regione) of Lombardy (Lombardia), northern Italy. It is the leading financial centre and the most prosperous manufacturing and commercial city of Italy.",
         website: "https://www.britannica.com/place/Milan-Italy"
     },
     {
