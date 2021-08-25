@@ -4,7 +4,7 @@ export const getFamousCitizens = () => {
 
 const famousCitizens = [
     {
-        name: "Donatella Verace",
+        name: "Donatella Versace",
         occupation: "Italian fashion designer",
         description: "Having been at the helm of the Versace empire as artistic director since 1997, Donatella Versace has overseen the growth of the group’s luxury clothing lines alongside the expansion into accessories, home furnishings and hotels, creating a luxury lifestyle brand which was forecast to hit $850 million in revenue in 2018.",
         website: "https://www.businessoffashion.com/community/people/donatella-versace"
