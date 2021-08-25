@@ -4,7 +4,7 @@ export const getLandmarks = () =>{
 const Landmarks = [
     {
         image: "Lourve.jpeg",
-        name: "Lourve",
+        name: "Louvre",
         year: "1793",
         description: "Discover timeless works of art in a museum that was once a palace.",
         website: "https://www.louvre.fr/en"

@@ -11,7 +11,7 @@ const Cities = [
     },
 
     {   
-        image: "Merseille.jpgeg",
+        image: "Merseille.jpeg",
         name: "Marseille",
         population: "1.6 M",
         description: "Merseille contains some of the most incredible spaces. Full of street art and culture and lots of outdoor activities.",
