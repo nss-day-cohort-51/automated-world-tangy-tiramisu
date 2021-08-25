@@ -14,7 +14,7 @@ export const getFamousCitizens = () => {
             image: "alanis.png",
             name: "Alanis Morissette",
             occupation: "Singer",
-            description: "Alanis Morissette was born in Ottawa, Canada. Her Greek first name is a feminine version of her father's name. She is a Canadian singer, songwriter, musician, and actress. Known for her emotive mezzo-soprano voice, Morissette began her career in Canada in the early 90s",
+            description: "Alanis Morissette was born in Ottawa, Canada. She is a Canadian singer, songwriter, musician, and actress. Known for her emotive mezzo-soprano voice, Morissette began her career in Canada in the early 90s",
             website: "https://alanis.com/"
         },
         {
