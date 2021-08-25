@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +13,23 @@
     <script type="module" src="scripts/main.js"></script>
 </head>
 <body>
-	<div class="header">
-		<header>
-			<section class="Logo">
+	<header>
+		<div class="header">
+			<section class="logo">
 				<img src="images/stellarlogo.png" alt="stellar logo" />
 			</section>
-			<section class="Navbar">
-				<!-- Navbar -->
+			<section class="navbar">
+				<ul>
+					<li class="active">Home</li>
+					<li><a href="italy.html">Italy</a></li>
+					<li><a href="france.html">France</a></li>
+					<li><a href="canada.html">Canada</a></li>
+				</ul>
 			</section>
-		</header>
-	</div>
+		</div>
+		<span></span>
+	</header>
+		
 	<main>
 		<section class="about">
 			<h2>Headline About Stellar Travel</h2>
@@ -39,7 +49,10 @@
 		</section>
 	</main>
 	<footer>
-		<p>Copyright &copy; 2021 Stellar Travel</p>
+		<div class="footer">
+			<div class="column1"><img src="images/stellarlogo.png" alt="stellar logo"> </div>	
+			<div class="column2"> <p>Copyright &copy; 2021 Stellar Travel</p></div>
+		</div>	
 	</footer>
 </body>
 </html>
