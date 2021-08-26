@@ -7,14 +7,14 @@ export const getCities = () => {
             image: "vancouver.png",
             name: "Vancouver",
             population: "2.6M",
-            description: "Vancouver is consistently named as one of the top 5 worldwide cities for livability & quality of life & acknowledged as the 1st city ranked among the top 10 of the world's most well-living cities for 10 consecutive years. It also ranks as the most expensive city to live in Canada & as the 4th-most expensive housing market globally. In 2011, the city planned to become the greenest city in the world by 2020.",
+            description: "Vancouver is consistently named as one of the top five worldwide cities for livability & quality of life & acknowledged as the 1st city ranked among the top 10 of the world's most well-living cities for 10 consecutive years in a row. It also ranks as the most expensive city to live in Canada & as the 4th-most expensive housing market globally.",
             website: "https://vancouver.ca/"
         },
         {
             image: "toronto.png",
             name: "Toronto",
             population: "2.7M",
-            description: "The city is home to the Toronto Stock Exchange, the headquarters of Canada's five largest banks, and the headquarters of many large Canadian and multinational corporations. Its economy is highly diversified with strengths in technology, design, financial services, life sciences, education, arts, fashion, aerospace, environmental innovation, food services, and tourism.",
+            description: "The city is home to the Toronto Stock Exchange, the headquarters of Canada's 5 largest banks, & many large Canadian & multinational corporations. Its economy is highly diversified with strengths in technology, design, financial services, life sciences, education, arts, fashion, aerospace, environmental innovation, food services, & tourism.",
             website: "https://www.toronto.ca/"
         },
         {
