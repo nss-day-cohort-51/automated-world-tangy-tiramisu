@@ -3,7 +3,7 @@ import { getLandmarks } from './landmarks/LandmarkDataProvider.js'
 import { getFamousCitizens } from './famousCitizens/FamousCitizensDataProvider.js'
 import { cityCard, landmarkCard, citizenCard } from '../cards.js'
 
-export const ListCountryData = () => {
+export const CanadaData = () => {
     const cityElement = document.querySelector("#cities")
     const citizenElement = document.querySelector("#famous")
     const landmarkElement = document.querySelector("#landmarks")

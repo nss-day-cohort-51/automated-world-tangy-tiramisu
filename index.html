@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" type="image/jpg" href="images/stellarfavicon.png"/>
 	<title>Stellar Travel</title>
 	<link rel="stylesheet" href="styles/main.css">
-    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="main.js"></script>
 </head>
 <body>
 	<header>
@@ -19,23 +19,22 @@
 				<img src="images/stellarlogo.png" alt="stellar logo" />
 			</section>
 			<section class="navbar">
-				<ul>
-					<li class="active">Home</li>
-					<li><a href="italy.html">Italy</a></li>
-					<li><a href="france.html">France</a></li>
-					<li><a href="canada.html">Canada</a></li>
+				<ul id="linkList">
+					<a id="home" href="#">Home</a>
+					<a id="italy" href="#">Italy</a>
+					<a id="france" href="#">France</a>
+					<a id="canada" href="#">Canada</a>
 				</ul>
 			</section>
 		</div>
 	</header>
-	<main>
+	<main id="main">
 		<section class="about">
 			<h2>Stellar Travel Company</h2>
 			<p>Have A Travel Experience That's Out Of This World!</p>
-		</section>
-		<section class="country-cards">
-
-		</section>
+		</section> <!-- closes about section -->
+			<section id="Container" class="country-cards">
+			</section> <!-- closes country-cards section -->
 	</main>
 	<footer>
 		<div class="footer">

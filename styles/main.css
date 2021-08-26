@@ -1,7 +1,7 @@
 body {
     font-family: "Open Sans",sans-serif;
     font-size: 24pt;
-    background-color: #C9D6DF;
+    background-color: white;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -51,6 +51,10 @@ ul {
     padding: 0px;
 }
 
+#linkList a {
+    margin: 0px 20px 5px 20px;
+}
+
 .navbar li {
     display: inline-block;
     margin: 0px 20px 5px 20px;
@@ -96,6 +100,7 @@ main {
     color: black;
     text-align: center;
     padding: 40px;
+    margin: 0px;
     border-top: 4px solid #58C2F1;
     border-bottom: 4px solid #58C2F1;
 }
@@ -123,7 +128,7 @@ main {
     background-color: white;
     text-align: center;
     margin: 0px;
-    padding: 30px 0px;
+    /* padding: 30px 50px; */
 }
 
 .country-cards a {
@@ -141,7 +146,7 @@ main {
     background-color: #C9D6DF;
     text-align: left;
     text-decoration: none;
-    margin: 15px;
+    margin: 50px 20px;
     padding: 10px;
     border-radius: 15px;
     border: 3px solid #52616B;
@@ -234,25 +239,48 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0px 0px;
+    padding: 0px 0px;
 }
 
 .city-title {
     background-color: white;
     text-align: center;
-    border-top: 4px solid #58C2F1; 
+    border-top: 4px solid #58C2F1;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.city-title h2 {
+    margin: 0px;
+    padding: 20px 0px 0px 0px; 
 }
 
 .landmark-title {
     background-color: white;
     text-align: center;
     border-top: 4px solid #58C2F1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.landmark-title h2 {
+    margin: 0px;
+    padding: 20px 0px 0px 0px; 
 }
 
 .famous-title {
     background-color: white;
     text-align: center;
     border-top: 4px solid #58C2F1;
+    margin: 0px;
+    padding: 0px;
 }
+
+.famous-title h2 {
+    margin: 0px;
+    padding: 20px 0px 0px 0px; 
+}
+
 /* start of all cards on individual country page */
 .cards{
     display: flex;
@@ -261,8 +289,8 @@ main {
     justify-content: space-evenly;
     background-color: white;
     text-align: center;
-    margin: 0px;
-    padding: 30px 0px;
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     /* border: 3px dotted black; */
 }
 
@@ -276,7 +304,7 @@ main {
     justify-content: flex-start;
     background-color: #C9D6DF;
     text-align: center;
-    margin: 20px;
+    margin: 0px 20px 50px 20px;
     padding: 10px;
     border-radius: 15px;
     border: 3px solid #52616B;
@@ -331,7 +359,7 @@ main {
     justify-content: flex-start;
     background-color: #C9D6DF;
     text-align: center;
-    margin: 20px;
+    margin: 0px 20px 50px 20px;
     padding: 10px;
     border-radius: 15px;
     border: 3px solid #52616B;
@@ -386,7 +414,7 @@ main {
     justify-content: flex-start;
     background-color: #C9D6DF;
     text-align: center;
-    margin: 20px;
+    margin: 0px 20px 50px 20px;
     padding: 10px;
     border-radius: 15px;
     border: 3px solid #52616B;
@@ -439,7 +467,7 @@ main {
     justify-content: space-between;
     background-color: #52616B;
     color: white;
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
     border-top: 4px solid #58C2F1;
 }
 
