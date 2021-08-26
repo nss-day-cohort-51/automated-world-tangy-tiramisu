@@ -109,23 +109,14 @@ main {
     padding: 0px;
 }
 
-.countryImage {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-}
-
 .countryImage img {
     width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
 }
 
 .countryName {
-    /* width: 100%; */
     text-align: center;
     background-color: #C9D6DF;
     padding: 20px 0px;
@@ -172,35 +163,17 @@ main {
 
 .about {
     background-color: #C9D6DF;
-    text-align: center;
-    padding: 40px;
-}
-
-
-.about h2 {
-    font-size: 40pt;
-    margin: 0px 0px;
-    padding: 0px 0px;
-    text-align: center;
-}
-
-.about p {
-    margin: 20px 100px;
-    /* padding: 40px auto; */
-    text-align: center;
 }
 
 .country-cards{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    background-color: white;
-    text-align: center;
-    margin: 0px;
-    padding: 30px 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+
+/* if changing, also change country cards below to match */
 .cards{
     display: flex;
     flex-direction: row;
@@ -227,6 +200,8 @@ main {
 }
 
 .city-card img {
+    /* width: 100%; */
+    /* text-align: center; */
     margin: 0px auto;
     padding: 0px;
     border: 2px solid white;
@@ -234,6 +209,8 @@ main {
 }
 
 .landmark-card img {
+    /* width: 100%; */
+    /* text-align: center; */
     margin: 0px auto;
     padding: 0px;
     border: 2px solid white;
@@ -241,6 +218,8 @@ main {
 }
 
 .citizen-card img {
+    /* width: 100%; */
+    /* text-align: center; */
     margin: 0px auto;
     padding: 0px;
     border: 2px solid white;
@@ -367,6 +346,8 @@ main {
 }
 
 
+
+
 .landmark-card img{
     text-align: center;
     margin: 0px;
@@ -386,51 +367,18 @@ main {
     margin: 0px;
     padding: 0px;
     border-radius: 15px;
-    width: 100%;
 }
 
-.country-card{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 500px;
-    background-color: #C9D6DF;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 15px;
-    border: 3px solid #52616B;
+#italy{
+
 }
 
-.country-card h3 {
-    font-size: 30pt;
-    padding: 0px 40px;
-    margin: 0px;
+#france{
+
 }
 
-.country-card h5 {
-    font-size: 20pt;
-    font-weight: 400;
-    padding: 0px 40px;
-    margin: 0px;
-}
+#canada{
 
-.country-card p {
-    padding: 0px 40px;
-    margin: 0px;
-}
-
-.country-card a {
-    font-size: 20pt;
-    font-weight: 600;
-    text-decoration: none;
-    color: #338fb7;
-    padding: 20px 40px;
-    margin: 0px;
-}
-
-.country-card a:hover{
-    color: white;
 }
 
 .footer{ 
@@ -460,4 +408,20 @@ main {
     margin: 0px;
     padding-right: 20px;
 }
+
+/* styling below is for country pages */
+/* #cities {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px dashed pink;
+} */
+ 
+/* #landmarks {
+
+ } */
+
+ /* #famous {
+
+ } */
 
