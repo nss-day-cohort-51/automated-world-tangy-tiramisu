@@ -94,7 +94,7 @@ main {
 /* start of about section on index page */
 .about {
     background-color: #C9D6DF;
-    background-image: url("/images/earth.png");
+    background-image: url("../images/earth.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
