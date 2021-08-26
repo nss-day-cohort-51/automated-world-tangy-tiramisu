@@ -7,32 +7,13 @@ body {
     padding: 0px;
 }
 
-h1 {
-    font-size: 40pt;
-}
-
-h2 {
-    font-size: 30pt;
-}
-
-/* h3{
-    font-size: 54pt;
-} */
-
-h4 {
-    font-size: 36pt;
-}
-
-/* h5{
-    font-size: 24pt;
-} */
-
 p {
     font-size: 16pt;
     font-family: "Raleway",serif;
     
 }
 
+/* start of header styling */
 .header {
     background-color: #ffffff;
     margin: 0px;
@@ -40,6 +21,7 @@ p {
     width: 100%;
 } 
 
+/* start of logo styling */
 .logo {
     margin: 0px;
     padding: 0px;
@@ -52,7 +34,9 @@ p {
     padding: 0px;
     margin: 25px 0px 20px 0px;
 }
+/* end of logo styling */
 
+/* start of nav bar styling */
 .navbar {
     list-style-type: none;
     text-align: center;
@@ -91,14 +75,8 @@ ul {
 li a:hover {
     color: #58C2F1;
 }
-
-.header span {
-    width: 100%;
-    height: 4px;
-    background-color: #58C2F1;
-    border: 1px solid green;
-    display: inline-block;
-}
+/* end of nav bar styling */
+/* end of header styling */
 
 main {
     display: flex;
@@ -109,6 +87,108 @@ main {
     padding: 0px;
 }
 
+/* start of about section on index page */
+.about {
+    background-color: #C9D6DF;
+    background-image: url("/images/earth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    border-top: 4px solid #58C2F1;
+    border-bottom: 4px solid #58C2F1;
+}
+
+.about h2 {
+    font-size: 40pt;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.about p {
+    font-weight: 600;
+    margin: 20px 100px;
+    text-align: center;
+}
+/* end of about section on index page */
+
+/* flex container for country cards on index page */
+.country-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.country-cards a {
+    text-decoration: none;
+    color: black;
+}
+
+/* start of country card styling on index page */
+.country-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 350px;
+    justify-content: flex-start;
+    background-color: #C9D6DF;
+    text-align: left;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid #52616B;
+}
+.country-card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0,0,0, 0.75);
+}
+
+.country-card img {
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.country-card h3 {
+    font-size: 26pt;
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+}
+
+.country-card p {
+    text-decoration: none;
+    padding: 0px 30px;
+    margin: 10px 0px;
+}
+
+.country-card a {
+    font-size: 20pt;
+    font-weight: 600;
+    text-decoration: none;
+    color: #338fb7;
+    padding: 20px 40px;
+    margin: 0px;
+}
+
+.country-card a:hover{
+    color: white;
+}
+/* end of country cards styling on index page */
+
+/* start of styling of individual country pages */
+
+/* start of styling of country banner */
 .countryImage {
     display: flex;
     flex-direction: row;
@@ -117,15 +197,17 @@ main {
     margin: 0px;
     padding: 0px;
 }
+/* we made countryImage container a flexbox to remove gap at bottom of image - no gap now */
 
 .countryImage img {
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
+/* end of styling of country banner */
 
+/*  start of country name/info section */
 .countryName {
-    /* width: 100%; */
     text-align: center;
     background-color: #C9D6DF;
     padding: 20px 0px;
@@ -144,7 +226,9 @@ main {
     /* padding: 40px auto; */
     text-align: center;
 }
+/*  end of country name/info section */
 
+/* start of country content section - consists of 3 parts: Cities, Landmarks, & Citizens */
 .countryContent {
     display: flex;
     flex-direction: column;
@@ -169,38 +253,7 @@ main {
     text-align: center;
     border-top: 4px solid #58C2F1;
 }
-
-.about {
-    background-color: #C9D6DF;
-    text-align: center;
-    padding: 40px;
-}
-
-
-.about h2 {
-    font-size: 40pt;
-    margin: 0px 0px;
-    padding: 0px 0px;
-    text-align: center;
-}
-
-.about p {
-    margin: 20px 100px;
-    /* padding: 40px auto; */
-    text-align: center;
-}
-
-.country-cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    background-color: white;
-    text-align: center;
-    margin: 0px;
-    padding: 30px 0px;
-}
-
+/* start of all cards on individual country page */
 .cards{
     display: flex;
     flex-direction: row;
@@ -213,11 +266,14 @@ main {
     /* border: 3px dotted black; */
 }
 
+/* start of city card styling */
 .city-card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex: 0 1 auto;
     width: 500px;
+    justify-content: flex-start;
     background-color: #C9D6DF;
     text-align: center;
     margin: 20px;
@@ -227,21 +283,7 @@ main {
 }
 
 .city-card img {
-    margin: 0px auto;
-    padding: 0px;
-    border: 2px solid white;
-    border-radius: 15px;
-}
-
-.landmark-card img {
-    margin: 0px auto;
-    padding: 0px;
-    border: 2px solid white;
-    border-radius: 15px;
-}
-
-.citizen-card img {
-    margin: 0px auto;
+    margin: 0px;
     padding: 0px;
     border: 2px solid white;
     border-radius: 15px;
@@ -249,14 +291,14 @@ main {
 
 .city-card h3 {
     font-size: 30pt;
-    padding: 0px 40px;
+    padding: 10px 0px;
     margin: 0px;
 }
 
 .city-card h5 {
     font-size: 20pt;
     font-weight: 400;
-    padding: 0px 40px;
+    padding: 0px 0px 10px 0px;
     margin: 0px;
 }
 
@@ -277,12 +319,16 @@ main {
 .city-card a:hover{
     color: white;
 }
+/* end of city card styling */
 
-.landmark-card{
+/* start of landmark card styling */
+.landmark-card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex: 0 1 auto;
     width: 500px;
+    justify-content: flex-start;
     background-color: #C9D6DF;
     text-align: center;
     margin: 20px;
@@ -291,16 +337,23 @@ main {
     border: 3px solid #52616B;
 }
 
+.landmark-card img {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
 .landmark-card h3 {
     font-size: 30pt;
-    padding: 0px 40px;
+    padding: 10px 0px;
     margin: 0px;
 }
 
 .landmark-card h5 {
     font-size: 20pt;
     font-weight: 400;
-    padding: 0px 40px;
+    padding: 0px 0px 10px 0px;
     margin: 0px;
 }
 
@@ -321,12 +374,16 @@ main {
 .landmark-card a:hover{
     color: white;
 }
+/* end of landmark card styling */
 
-.citizen-card{
+/*  start of citizen card styling */
+.citizen-card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex: 0 1 auto;
     width: 500px;
+    justify-content: flex-start;
     background-color: #C9D6DF;
     text-align: center;
     margin: 20px;
@@ -335,16 +392,23 @@ main {
     border: 3px solid #52616B;
 }
 
+.citizen-card img {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
 .citizen-card h3 {
     font-size: 30pt;
-    padding: 0px 40px;
+    padding: 10px 0px;
     margin: 0px;
 }
 
 .citizen-card h5 {
     font-size: 20pt;
     font-weight: 400;
-    padding: 0px 40px;
+    padding: 0px 0px 10px 0px;
     margin: 0px;
 }
 
@@ -362,78 +426,13 @@ main {
     margin: 0px;
 }
 
-.citizen-card a:hover{
+.citizen-card a:hover {
     color: white;
 }
+/*  end of citizen card styling */
 
-
-.landmark-card img{
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 15px;
-}
-
-.citizen-card img{
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 15px;
-}
-
-.country-card img{
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 15px;
-    width: 100%;
-}
-
-.country-card{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 500px;
-    background-color: #C9D6DF;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 15px;
-    border: 3px solid #52616B;
-}
-
-.country-card h3 {
-    font-size: 30pt;
-    padding: 0px 40px;
-    margin: 0px;
-}
-
-.country-card h5 {
-    font-size: 20pt;
-    font-weight: 400;
-    padding: 0px 40px;
-    margin: 0px;
-}
-
-.country-card p {
-    padding: 0px 40px;
-    margin: 0px;
-}
-
-.country-card a {
-    font-size: 20pt;
-    font-weight: 600;
-    text-decoration: none;
-    color: #338fb7;
-    padding: 20px 40px;
-    margin: 0px;
-}
-
-.country-card a:hover{
-    color: white;
-}
-
-.footer{ 
+/* start of footer styling */
+.footer { 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -444,20 +443,91 @@ main {
     border-top: 4px solid #58C2F1;
 }
 
-.column1{
+.column1 {
+    align-self: center;
+    margin: 0px;
+    padding: 20px 20px 20px 40px;
+    /* border: 1px solid red; */
+}
+
+.column1 img {
+    width: 175px;
+}
+
+.column2 {
     align-self: center;
     margin: 0px;
     padding: 20px;
+    /* border: 1px solid red; */
 }
 
-.column1 img{
-    width: 175px;
-
+.column2 p {
+    text-align: center;
 }
 
-.column2{
-    align-self: center;
+.column3 {
+    text-align: center;
+    padding: 20px 40px;
+    /* border: 1px solid white; */
+}
+
+.column3 h4 {
+    font-size: 30px;
+    padding: 0px;
     margin: 0px;
-    padding-right: 20px;
 }
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.team a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100px;
+    text-align: center;
+    background-color: #3c484f;
+    margin: 10px;
+    padding: 15px 20px 10px 20px;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+/* this code makes team card pop off page */
+.team-card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 15px 15px rgba(0,0,0, 0.75);
+}
+
+.team-card img {
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.team-card h6 {
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    margin: 10px auto;
+}
+
+.team-card p {
+    font-size: 10px;
+    padding: 0px 5px;
+    margin: 0px;
+}
+/* end of footer styling */
 
